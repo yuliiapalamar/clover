@@ -20,11 +20,11 @@ public class WeatherTable {
     private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "("
             + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
             + COLUMN_DATE + " TEXT,"
-            + COLUMN_MIN_TEMPERATURE + " REAL,"
-            + COLUMN_MAX_TEMPERATURE + " REAL,"
+            + COLUMN_MIN_TEMPERATURE + " INTEGER,"
+            + COLUMN_MAX_TEMPERATURE + " INTEGER,"
             + COLUMN_PRECIPITATION + " TEXT,"
-            + COLUMN_HUMIDITY + " REAL,"
-            + COLUMN_WIND + " REAL,"
+            + COLUMN_HUMIDITY + " INTEGER,"
+            + COLUMN_WIND + " INTEGER,"
             + COLUMN_WEATHER_TYPE_ID + " INTEGER"
             + ")";
 }
